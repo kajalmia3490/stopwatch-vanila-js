@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#display {
+    margin: 40px auto;
+    width: fit-content;
+    color: gainsboro;
+    background-color: black;
+    padding: 20px 40px;
+    font-size: 60px;
+    border-radius: 10px;
+}
+
+p {
+    width: fit-content;
+    margin: auto;
+}
+
+#start,
+#reset {
+    border: none;
+    padding: 10px 15px;
+    background-color: rgb(201, 184, 184);
+    font-size: large;
+    border-radius: 5px;
+}
+
+#startBtn:active,
+#resetBtn:active {
+    background-color: gray;
+}
